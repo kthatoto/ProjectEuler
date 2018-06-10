@@ -19,5 +19,5 @@ func main() {
     }
     m += 2
   }
-  fmt.Println(m)
+  fmt.Print(m)
 }

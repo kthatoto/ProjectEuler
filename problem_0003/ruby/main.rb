@@ -11,4 +11,4 @@ while 1 < n
     end
   end
 end
-puts primes[-1]
+print primes[-1]

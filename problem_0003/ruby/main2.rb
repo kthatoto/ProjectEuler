@@ -5,4 +5,4 @@ loop do
   break if n == 1
   m += 2
 end
-puts m
+print m
