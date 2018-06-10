@@ -5,4 +5,4 @@ for ((i=1; i < $n; i++)); do
     sum=$(( $sum + $i ))
   fi
 done
-echo $sum
+printf $sum
