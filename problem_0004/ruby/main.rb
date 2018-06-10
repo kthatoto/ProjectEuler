@@ -1,11 +1,12 @@
-min = 100 ** 2
-max = 999 ** 2
+digit = 3
+min = 10 ** (digit - 1)
+max = (10 ** digit) - 1
 found = false
-max.downto(min) do |n|
+(max ** 2).downto(min ** 2) do |n|
   if n.to_s === n.to_s.reverse
-    (100..999).each do |m|
-      if n % m === 0 && (100 <= (l = (n / m)) && l <= 999)
-        puts n
+    (min..max).each do |m|
+      if n % m === 0 && (min <= (l = (n / m)) && l <= max)
+        print n
         found = true
         break
       end
