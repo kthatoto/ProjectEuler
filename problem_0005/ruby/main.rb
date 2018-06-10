@@ -1,5 +1,6 @@
+max = 20
 factors = {}
-(1..20).each do |m|
+(1..max).each do |m|
   m_tmp = m
   (2..m).each do |l|
     count = 0
@@ -10,6 +11,6 @@ factors = {}
     factors[l] = count if factors[l].to_i < count
   end
 end
-puts factors.map{|factor, count|
+print factors.map{|factor, count|
   factor ** count
 }.inject(:*)
