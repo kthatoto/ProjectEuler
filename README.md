@@ -1,4 +1,4 @@
-# Project Euler by kthatoto
+# Project Euler by [kthatoto](https://github.com/kthatoto)
 
 ## Rules
 1. Set specific numbers as variables, **not** using `stdin`.
