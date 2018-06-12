@@ -23,4 +23,4 @@ loop do
   end
   i += 1
 end
-puts triangle
+print triangle
