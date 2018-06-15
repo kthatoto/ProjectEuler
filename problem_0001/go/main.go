@@ -1,9 +1,5 @@
 package main
-
-import (
-  "fmt"
-)
-
+import "fmt"
 func main() {
   var sum int
   n := 1000

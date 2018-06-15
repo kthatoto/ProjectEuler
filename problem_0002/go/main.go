@@ -1,9 +1,5 @@
 package main
-
-import (
-  "fmt"
-)
-
+import "fmt"
 func main() {
   max := 4000000
   sum := 0
